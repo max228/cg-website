@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  position: sticky;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    opacity: 67%;
+    transition: ease 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+    opacity: 100%;
+    transition: ease 1s;
+}
+button:focus {
+  outline: 0
+}
+input {
+  border: 2px solid white;
+  font-size: 1.16vw;
+  font-weight: 300;
+  color: white;
+  background: transparent;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  border-radius: 1.5vw;
+  margin-bottom: 2vw;
+}
+h3 {
+  font-size: 1.33vw;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+h4 {
+  font-size: 1.16vw;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  opacity: 0.8;
+}
+h1 {
+  font-size: 6vw;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+p {
+  font-size: 1vw;
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+}
+button {
+  font-size: 1vw;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+h6 {
+  font-size: 2vw;
+  font-weight: 300;
+  color: white;
+  margin: 0.83vw;
+}
+input:focus {
+  outline: 0
+}
+::-moz-placeholder { /* Code for Firefox */
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari and Opera */
+    color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
